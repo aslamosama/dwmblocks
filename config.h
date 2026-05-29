@@ -22,6 +22,7 @@
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
     X("", "cat /tmp/recordingicon 2>/dev/null", 0, 9)  \
+    X("", "sb-nettraf", 1, 23) \
     X("", "sb-internet", 5, 4)   \
     X("", "sb-volume", 0, 8) \
     X("", "sb-battery", 5, 21) \
